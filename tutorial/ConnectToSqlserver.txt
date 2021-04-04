@@ -1,0 +1,6 @@
+Require: Docker mssql server 2017 latest,Azure studio
+1 - docker run -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=P@ssw0rd' -p 1400:1433 -d mcr.microsoft.com/mssql/server:2017-latest
+2 - Connect with Azure studio
+3 - Create database TEST1 (link in env)
+4 - Create table BOOk with 2 col (id and name not fixed)
+5 - Add some test data
